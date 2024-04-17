@@ -1,0 +1,164 @@
+body
+{
+background-color:skyblue;
+padding: 0%;
+margin: 0%;
+overflow-x: hidden;
+text-align: center;
+}
+
+header{
+    background-color: aliceblue;
+    padding: 15px;
+    box-shadow: 0 0 3px #000f00;
+ 
+}
+
+header li
+{
+display: inline;
+padding-left: 45px;
+
+}
+header li a
+{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color:royalblue;
+}
+header ul #log a
+{
+    color: aliceblue;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    transition: .3s ease;
+}
+header li img
+{
+    width: 110px;
+    float: left;
+    margin-top: -32px;
+}
+header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -2px;
+    margin-right: 14px;
+    font-size: 17px;
+    width: 200px;
+  }
+  #container {
+    width: 100%; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+#slider {
+    position: relative;
+    width: 835%; 
+    animation: slide 20s infinite;
+    height: 35rem;
+}
+#slider figure {
+    display: flex;
+    margin: 0;  
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+#slider figure img {          
+    width: 12%;
+    height: auto;          
+}
+@keyframes slide {
+    0% { left: 0;  }
+    20% {  left: 0; }
+    25% { left: -100%;}
+    45% { left: -100%; }
+    50% {left: -200%;}
+    70% { left: -200%;  }
+    75% { left: -300%; }
+    100% { left: -400%;  }
+}
+.Lolly{
+    display: flex;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+ 
+  .footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    background-color:grey;
+    color: white;
+    text-align: center;
+ }
+ .social-icons {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+ .social-icons li {
+     display: inline-block;
+     margin-right: 10px;
+ }
+ .social-icons li:last-child {
+     margin-right: 0;
+ }
+ .social-icons li a {
+     display: block;
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     background-color: #333;
+     color: #fff;
+     border-radius: 50%;
+ }
+ 
+ .social-icons li.facebook a {
+     background-color: #3b5998; 
+ }
+ .social-icons li.instagram a {
+     background-color:paleturquoise; 
+ }
+ .social-icons li.google a {
+     background-color:greenyellow;
+ }
+ .social-icons li.youtube a {
+     background-color: #cd201f; 
+ }
+
+ .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
