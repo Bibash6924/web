@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       body {
+        background-color: skyblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hotel {
+  /*width: calc(50% - 20px);*/
+  width: 300px;
+    height: 300px;
+    float: left;
+  margin-bottom: 40px;
+}
+
+.hotel img { 
+  width: 300px;
+    height: 300px;
+  height: auto;
+}
+
+
+.details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  width: 259px;
+    height: 150px;
+}
+
+.details h2 {
+  margin-top: 0;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+@media only screen and (min-width: 768px) {
+  .hotel {
+    width: calc(80% - 20px);
+  }
+}
+
+header{
+    background-color: aliceblue;
+    padding: 15px;
+    box-shadow: 0 0 3px #000f00;
+ 
+}
+
+header li
+{
+display: inline;
+padding-left: 45px;
+
+}
+header li a
+{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color:royalblue;
+}
+header ul #log a
+{
+    color: aliceblue;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    transition: .3s ease;
+}
+header li img
+{
+    width: 110px;
+    float: left;
+    margin-top: -32px;
+}
+header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 14px;
+    font-size: 17px;
+  }
+  
+ 
+
+ .social-icons {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+ .social-icons li {
+     display: inline-block;
+     margin-right: 10px;
+ }
+ .social-icons li:last-child {
+     margin-right: 0;
+ }
+ .social-icons li a {
+     display: block;
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     background-color: #333;
+     color: #fff;
+     border-radius: 50%;
+ }
+ /* Example CSS for adding specific icons */
+ .social-icons li.facebook a {
+     background-color: #3b5998; 
+ }
+ .social-icons li.instagram a {
+     background-color:paleturquoise; 
+ }
+ .social-icons li.google a {
+     background-color:greenyellow;
+ }
+ .social-icons li.youtube a {
+     background-color: #cd201f; 
+ }
+
+ .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+  
+    <header>
+        <ul>
+            <li><img src="BIbash_travels-removebg-preview.png"></li>
+            <li><a href="'#">Home</a></li>
+            <li><a href="'#">Hotel</a></li>
+            <li><a href="'#">Destination</a></li>
+            <li><a href="'#">Contact us</a></li>
+            <li id="log"><a href="'#">Log in </a></li>
+            <input type="text" placeholder="Search....">
+            
+        </ul>
+        
+    </header>
+    <h2>Hotel services</h2>
+    <div class="hotel-container">
+        <div class="hotel" >
+          <img src="hotel-1.jpg" alt="Hotel 1" width="300" height="300">
+          <div class="details">
+            <h2>HAYAT HOTEL</h2>
+            <p class="address">Address: Kathmandu</p>
+            <p class="rating">Rating: 5/5</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+          <div class="hotel">
+            <img src="hotel-2.jpg" alt="Hotel 2" width="300" height="300">
+            <div class="details">
+              <h2>HOTEL BARAHI</h2>
+              <p class="address">Address: Pokhara</p>
+              <p class="rating">Rating: 4.5/5</p>
+              <a href="#" class="btn">See More</a>
+            </div>
+            <div class="hotel">
+                <img src="hotel-3.jpg" alt="Hotel 3"width="300" height="300">
+                <div class="details">
+                  <h2>DWRAKIKA'S HOTEL</h2>
+                  <p class="address">BIRTAMODE</p>
+                  <p class="rating">Rating: 5/5</p>
+                  <a href="#" class="btn">See More</a>
+                </div>
+                <div class="hotel">
+                    <img src="hotel-4.jpg" alt="Hotel 4" width="300" height="300"> 
+                    <div class="details">
+                      <h2>HOTEL LE HIMALAYA</h2>
+                      <p class="address">Butwal</p>
+                      <p class="rating">Rating: 4.5/5</p>
+                      <a href="#" class="btn">See More</a>
+                    </div>
+                    <div class="hotel">
+                        <img src="hotel-5.jpg" alt="Hotel 5" width="300" height="300">
+                        <div class="details">
+                          <h2>HOTEL NEPALI GHAR</h2>
+                          <p class="address">TAPLEJUNG</p>
+                          <p class="rating">Rating: 5/5</p>
+                          <a href="#" class="btn">See More</a>
+                        </div>
+        </div>
+     
+      </div>
+      <div class="footer">
+        <p>Footer</p>
+        <ul class="social-icons">
+            <li class="facebook"><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li class="google"><a href="https://www.google.com"><i class="fab fa-google"></i></a></li>
+            <li class="youtube"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+            <div class="copyright">
+                <p>Copyright &copy; 2024 Bibash</p>
+            </div>
+        </ul>
+      </div>
+</body>
+</html>
